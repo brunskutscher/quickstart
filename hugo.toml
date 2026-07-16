@@ -32,7 +32,7 @@ theme = 'ananke'
 
 [[menu.main]]
   identifier = "teams"
-  pageRef = "/teams"
+  pageRef = "/teams/teams.md"
   name = "Teams"
   weight = 20
 
