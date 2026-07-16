@@ -1,4 +1,54 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'Tischtennis in der Sportgemeinschaft Siemens <SGS> Erlangen e.V.'
 theme = 'ananke'
+
+
+[markup.goldmark.renderer]  # render iframe
+  unsafe = true
+
+[params]
+  site_logo = "img/logo_4cm.jpg"
+
+[params.ananke]
+  show_recent_posts = false
+  show_categories = true
+
+
+
+[menus]
+
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  pageRef = "/"
+  weight = 5  
+
+[[menu.main]]
+  identifier = "aktuelles"
+  name = "Aktuelles"
+  pageRef = "/aktuelles"
+  weight = 10  
+
+[[menu.main]]
+  identifier = "teams"
+  pageRef = "/teams"
+  name = "Teams"
+  weight = 20
+
+[[menu.main]]
+  identifier = "kalender"
+  name = "Kalender"
+  pageRef = "/Kalender"
+  weight = 80  
+
+[[menu.main]]
+  name = "Kontakt"
+  url = "/contact"
+  weight = 90 
+
+[[menu.main]]
+  identifier = "impressum"
+  name = "Impressum"
+  pageRef = "/impressum"
+  weight = 100
