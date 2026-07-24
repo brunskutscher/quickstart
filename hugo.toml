@@ -1,5 +1,5 @@
 baseURL = 'https://example.org/'
-locale = 'en-us'
+locale = 'de-ge'
 title = 'Tischtennis in der Sportgemeinschaft Siemens <SGS> Erlangen e.V.'
 theme = 'ananke'
 
@@ -8,13 +8,11 @@ theme = 'ananke'
   unsafe = true
 
 [params]
-  site_logo = "img/logo_4cm.jpg"
+  site_logo = "img/SGS_Logo_2.svg"
 
 [params.ananke]
   show_recent_posts = false
   show_categories = true
-
-
 
 [menus]
 
@@ -32,17 +30,18 @@ theme = 'ananke'
 
 [[menu.main]]
   identifier = "teams"
-  pageRef = "/teams/teams.md"
+  pageRef = "/teams"
   name = "Teams"
   weight = 20
 
 [[menu.main]]
   identifier = "kalender"
   name = "Kalender"
-  pageRef = "/Kalender"
+  pageRef = "/Kalender.md"
   weight = 80  
 
 [[menu.main]]
+  identifier = "contact"
   name = "Kontakt"
   url = "/contact"
   weight = 90 
@@ -50,5 +49,5 @@ theme = 'ananke'
 [[menu.main]]
   identifier = "impressum"
   name = "Impressum"
-  pageRef = "/impressum"
+  pageRef = "/impressum.md"
   weight = 100
