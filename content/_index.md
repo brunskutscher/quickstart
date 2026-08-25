@@ -1,6 +1,8 @@
 +++
+#Title = "Home"
 description = "Tischtennis in der Sportgemeinschaft Siemens Erlangen e.V."
-#featured_image = "img/SGS_Logo.svg"
+featured_image = "img/NeutralFoto.webp"
+omit_header_text = true
 +++
 
 Wer wir sind.

@@ -1,9 +1,10 @@
 baseURL = 'https://example.org/'
-locale = 'de-ge'
-title = 'SGS Tischtennis'
+locale = 'de-DE'
+title = ' Tischtennis SGS Erlangen'
 #title = 'Tischtennis in der Sportgemeinschaft Siemens Erlangen e.V.'
 #theme = 'hugo-universal-theme'
 theme = 'ananke'
+#theme = 'congo'
 defaultContentLanguage='de'
 description="<Site Description>Tischtennis in der Sportgemeinschaft Siemens e.V."
 

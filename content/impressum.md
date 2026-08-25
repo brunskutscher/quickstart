@@ -1,7 +1,7 @@
 +++
 date = '2026-07-13T21:09:25+02:00'
 draft = false
-#title = 'Impressumme'
+title = 'Impressum'
 +++
 # Impressum
 
