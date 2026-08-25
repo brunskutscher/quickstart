@@ -1,53 +1,68 @@
 baseURL = 'https://example.org/'
 locale = 'de-ge'
-title = 'Tischtennis in der Sportgemeinschaft Siemens <SGS> Erlangen e.V.'
+title = 'SGS Tischtennis'
+#title = 'Tischtennis in der Sportgemeinschaft Siemens Erlangen e.V.'
+#theme = 'hugo-universal-theme'
 theme = 'ananke'
+defaultContentLanguage='de'
+description="<Site Description>Tischtennis in der Sportgemeinschaft Siemens e.V."
+
 
 
 [markup.goldmark.renderer]  # render iframe
   unsafe = true
 
 [params]
-  site_logo = "img/SGS_Logo_2.svg"
+  background_color_class = "bg-blue"
+  site_logo = "img/SGS_Logo_100_100.svg"
+  date_format="1965-01-23"
 
 [params.ananke]
   show_recent_posts = false
   show_categories = true
+  custom_css = ["css/custom.css"]
+
+[params.congo]
+  colorScheme = 'sapphire'
 
 [menus]
 
 [[menu.main]]
   identifier = "home"
   name = "Home"
-  pageRef = "/"
+  #pageRef = "/"
+  url = "/"
   weight = 5  
 
 [[menu.main]]
   identifier = "aktuelles"
   name = "Aktuelles"
-  pageRef = "/aktuelles"
+  url = "/aktuelles/"
+  #pageRef = "/aktuelles"
   weight = 10  
 
 [[menu.main]]
   identifier = "teams"
   pageRef = "/teams"
-  name = "Teams"
+  #name = "Teams"
   weight = 20
 
 [[menu.main]]
   identifier = "kalender"
   name = "Kalender"
-  pageRef = "/Kalender.md"
+  #pageRef = "/Kalender.md"
+  url = "/kalender/"
   weight = 80  
 
 [[menu.main]]
   identifier = "contact"
   name = "Kontakt"
-  url = "/contact"
+  url = "/contact/"
   weight = 90 
 
 [[menu.main]]
   identifier = "impressum"
   name = "Impressum"
-  pageRef = "/impressum.md"
+  #pageRef = "/impressum.md"
+  url = "/impressum/"
   weight = 100

@@ -1,8 +1,10 @@
 +++
 date = '2026-07-13T21:37:17+02:00'
 draft = false
-title = 'Teams'
+title = 'Mannschaften'
 menus = ['teams']
+featured_image = "img/SGS_Logo_2.svg"
+#omit_header_text = false
 +++
 
 # Damen
