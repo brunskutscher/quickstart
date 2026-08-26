@@ -16,7 +16,7 @@ description="<Site Description>Tischtennis in der Sportgemeinschaft Siemens e.V.
 [params]
   background_color_class = "bg-blue"
   site_logo = "img/SGS_Logo_100_100.svg"
-  date_format="1965-01-23"
+  #date_format="1965-01-23"
 
 [params.ananke]
   show_recent_posts = false
@@ -44,8 +44,9 @@ description="<Site Description>Tischtennis in der Sportgemeinschaft Siemens e.V.
 
 [[menu.main]]
   identifier = "teams"
-  pageRef = "/teams"
-  #name = "Teams"
+  #pageRef = "/teams"
+  url = "/teams/"
+  name = "Teams"
   weight = 20
 
 [[menu.main]]
