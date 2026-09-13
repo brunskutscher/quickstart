@@ -1,10 +1,37 @@
 #
 
-## Example Page
+TODO:
+
+Datenschutzerklärung: e.g. https://fechten-sgs-erlangen.de/datenschuterklaerung/
+
+
+
+
+## Ananke Example Page
 
 https://ananke-theme.netlify.app/
 
 https://github.com/gohugo-ananke/template-hugo-mod/blob/main/config/_default/hugo.toml
+
+## Tachyons
+
+https://tachyons.io/
+
+
+list elements left aligned wwith dot:
+
+```html
+<ul class="tl pl4">
+  <li>
+    <a href="http://localhost:1313/teams/damen/damen/">Damen</a>
+  </li>
+  <li>
+    <a href="http://localhost:1313/teams/damen/damen_1/">Damen 1</a>
+  </li>
+</ul>
+```
+
+
 
 
 ## Tip
