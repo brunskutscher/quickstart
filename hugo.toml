@@ -22,6 +22,7 @@ theme = 'ananke'
   background_color_class = "bg-blue pb1-m pb3-l" #(blue and smaller)
   header_section_class = "tc-l pv3 ph3 ph4-ns" # make the header (site-header) smaller
   featured_image_class = "cover bg-center" # align the image so it will not be strechted
+
   disableBreadcrumbs = true
 
 [params.ananke]
