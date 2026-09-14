@@ -1,7 +1,7 @@
 +++
-title = "Teams"
+title = "Aktuelles"
 featured_image = "img/NeutralFoto.webp"
-omit_header_text = true
+omit_header_text = false
 +++
 
 

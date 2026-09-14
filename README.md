@@ -31,9 +31,12 @@ list elements left aligned wwith dot:
 </ul>
 ```
 
-
-
-
 ## Tip
 hugo serve wont reload when windows filesystem is mounted in dev container
 => `hugo server --poll 700ms`
+
+
+## Auto Completion
+
+source hugo_completion.ps1  # Load Hugo auto-completion for PowerShell
+

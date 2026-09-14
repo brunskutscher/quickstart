@@ -3,7 +3,7 @@ baseURL = 'https://example.org/'
 locale = 'de-DE'
 defaultContentLanguage='de'
 
-title = ' Tischtennis SGS Erlangen'
+title = ' Tischtennis SGS Erlangen (Draft in work)'
 description="<Site Description>Tischtennis in der Sportgemeinschaft Siemens e.V."
 
 theme = 'ananke'
@@ -20,7 +20,7 @@ theme = 'ananke'
   
   # adjust theme/css without using custom css
   background_color_class = "bg-blue pb1-m pb3-l" #(blue and smaller)
-  header_section_class = "tc-l pv3 ph3 ph4-ns" # make the header (site-header) smaller
+  header_section_class = "tc-l pv3 ph3 ph4-ns" # make the header (site-header i.e home page and list pages) smaller
   featured_image_class = "cover bg-center" # align the image so it will not be strechted
 
   disableBreadcrumbs = true
@@ -92,3 +92,12 @@ theme = 'ananke'
   #pageRef = "/impressum.md"
   url = "/datenschutzerklärung_fechten/"
   weight = 100
+
+
+  # [module]
+  # [[module.mounts]]
+  #   source = "layouts"
+  #   target = "layouts"  
+  # [[module.mounts]]
+  #   source = "themes/ananke/layouts"
+  #   target = "layouts"    

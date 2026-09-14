@@ -1,9 +1,9 @@
 +++
 date = '2026-07-13T21:09:25+02:00'
-draft = false
+draft = true
 title = 'Impressum'
 +++
-# Impressum
+# Impressum (Draft)
 
 **Angaben gemäß § 5 TMG**
 
